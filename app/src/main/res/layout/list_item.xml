@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFDE7"
+    android:orientation="vertical"
+    >
+
+    <!--
+
+    <LinearLayout
+        android:paddingTop="8dp"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Sun, 26/03/2017"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:paddingBottom="8dp"
+            android:textColor="@android:color/black"
+
+            />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="5:16 PM"
+            android:gravity="center_horizontal"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:layout_gravity="right"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="24sp"
+            />
+
+        <TextView
+            android:id="@+id/taka"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            tools:text="TK 79"
+            android:gravity="center_vertical"
+            android:paddingRight="16dp"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            />
+
+    </LinearLayout>
+
+    -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:orientation="horizontal"
+        android:layout_margin="16dp"
+        android:gravity="center"
+
+        >
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Sun, 26/03/2017"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            android:paddingRight="4dp"
+            />
+
+        <TextView
+            android:layout_width="2dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray"
+            />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="5:16 PM"
+            android:textStyle="bold"
+            android:paddingLeft="4dp"
+            />
+        <ImageView
+            android:id="@+id/operator_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/grameenphone"
+            />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:id="@+id/taka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textColor="@android:color/black"
+        tools:text="TK 79"
+        />
+
+</LinearLayout>
