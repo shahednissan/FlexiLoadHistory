@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">FlexiLoad History</string>
+    <string name="isThisTheFirstTime">yes</string>
 </resources>

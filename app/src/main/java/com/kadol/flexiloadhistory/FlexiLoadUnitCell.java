@@ -8,13 +8,15 @@ public class FlexiLoadUnitCell {
 
     private String mDate;
     private String mTime;
-    private String mTaka;
+    private int mTaka;
+    private int mOperator;
 
-    public FlexiLoadUnitCell(String mDate, String mTime, String mTaka){
+    public FlexiLoadUnitCell(String mDate, String mTime, int mTaka, int mOperator){
 
         this.mDate=mDate;
         this.mTime=mTime;
         this.mTaka=mTaka;
+        this.mOperator = mOperator;
     }
 
     public String getmDate(){
@@ -25,7 +27,11 @@ public class FlexiLoadUnitCell {
         return mTime;
     }
 
-    public String getmTaka() {
+    public int getmTaka() {
         return mTaka;
+    }
+
+    public int getmOperator() {
+        return mOperator;
     }
 }

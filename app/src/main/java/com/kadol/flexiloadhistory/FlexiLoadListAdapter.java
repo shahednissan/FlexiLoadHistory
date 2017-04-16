@@ -48,7 +48,7 @@ public class FlexiLoadListAdapter extends ArrayAdapter<FlexiLoadUnitCell> {
         time.setText(currentCell.getmTime());
 
         TextView taka=(TextView) listItemView.findViewById(R.id.taka);
-        taka.setText(currentCell.getmTaka());
+        taka.setText("TK "+currentCell.getmTaka());
 
         return listItemView;
     }

@@ -35,9 +35,8 @@
 
         <TextView
             android:id="@+id/total"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
             android:paddingRight="16dp"
             android:text="TK 410"
             android:textColor="@android:color/black"
@@ -49,9 +48,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="24dp"
-        android:layout_marginTop="16dp"
         android:layout_marginLeft="16dp"
         android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
         android:gravity="center"
         android:orientation="horizontal"
 
@@ -59,34 +58,34 @@
 
         <TextView
             android:id="@+id/date"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:paddingRight="4dp"
             android:textSize="14sp"
             android:textStyle="bold"
-            tools:text="Sun, 26/03/2017"
-            />
+            tools:text="Sun, 26/03/2017" />
 
         <TextView
             android:layout_width="2dp"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray"
-            />
+            android:background="@android:color/darker_gray" />
 
         <TextView
             android:id="@+id/time"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight=".90"
             android:layout_height="wrap_content"
             android:paddingLeft="4dp"
             android:textStyle="bold"
-            tools:text="5:16 PM"
-            />
+            tools:text="5:16 PM" />
+
         <ImageView
             android:id="@+id/operator_logo"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
             android:layout_height="match_parent"
-            android:src="@drawable/grameenphone"
-            />
+            android:src="@drawable/grameenphone" />
 
     </LinearLayout>
 
